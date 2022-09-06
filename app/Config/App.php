@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://categlog-constant.herokuapp.com/';
+    public $baseURL = 'https://catalog-con.herokuapp.com/';
 
     /**
      * --------------------------------------------------------------------------
