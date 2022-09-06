@@ -1,0 +1,4 @@
+git-update.php
+writable/
+.env
+docker-compose.yml
