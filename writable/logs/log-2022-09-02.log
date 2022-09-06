@@ -1,0 +1,33 @@
+ERROR - 2022-09-02 06:24:33 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-09-02 06:24:33 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Libraries/Admin.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/admin/Login.php(46): App\Libraries\Admin->login()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\admin\Login->verify()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Login))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:25:16 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-09-02 06:25:16 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(30): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

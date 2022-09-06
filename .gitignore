@@ -1,4 +1,4 @@
 git-update.php
-writable/
-.env
+#writable/
+#.env
 docker-compose.yml

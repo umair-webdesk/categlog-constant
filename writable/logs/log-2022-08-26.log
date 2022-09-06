@@ -1,0 +1,265 @@
+CRITICAL - 2022-08-26 02:13:12 --> Undefined property: App\Controllers\admin\Generate_token::$input
+in APPPATH\Controllers\admin\Generate_token.php on line 43.
+ 1 APPPATH\Controllers\admin\Generate_token.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin\\Generate_token::$input', 'APPPATH\\Controllers\\admin\\Generate_token.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Generate_token->get_code()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Generate_token))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 02:13:52 --> Undefined property: App\Controllers\admin\Generate_token::$db
+in APPPATH\Controllers\admin\Generate_token.php on line 60.
+ 1 APPPATH\Controllers\admin\Generate_token.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin\\Generate_token::$db', 'APPPATH\\Controllers\\admin\\Generate_token.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Generate_token->get_code()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Generate_token))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 02:25:12 --> Class "App\Models\admin\GeneratetokenModel" not found
+in APPPATH\Controllers\admin\Generate_token.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\admin\Generate_token->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 02:25:15 --> Class "App\Models\admin\GeneratetokenModel" not found
+in APPPATH\Controllers\admin\Generate_token.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\admin\Generate_token->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 02:25:29 --> Class "App\Models\admin\GeneratetokenModel" not found
+in APPPATH\Controllers\admin\Generate_token.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\admin\Generate_token->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:25:57 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+CRITICAL - 2022-08-26 02:27:33 --> Undefined array key "token_type"
+in APPPATH\Controllers\admin\Generate_token.php on line 53.
+ 1 APPPATH\Controllers\admin\Generate_token.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token_type"', 'APPPATH\\Controllers\\admin\\Generate_token.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Generate_token->get_code()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Generate_token))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:27:49 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+CRITICAL - 2022-08-26 02:29:34 --> Undefined array key "token_type"
+in APPPATH\Controllers\admin\Generate_token.php on line 53.
+ 1 APPPATH\Controllers\admin\Generate_token.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token_type"', 'APPPATH\\Controllers\\admin\\Generate_token.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Generate_token->get_code()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Generate_token))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:29:40 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:31:27 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+CRITICAL - 2022-08-26 02:31:27 --> Undefined property: App\Controllers\admin\Generate_token::$db
+in APPPATH\Controllers\admin\Generate_token.php on line 64.
+ 1 APPPATH\Controllers\admin\Generate_token.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin\\Generate_token::$db', 'APPPATH\\Controllers\\admin\\Generate_token.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\admin\Generate_token->get_code()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Generate_token))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:32:07 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:33:06 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:33:58 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:35:21 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:39:16 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:39:56 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:40:48 --> Table 'ci4_setup.constantcontact_token' doesn't exist
+ERROR - 2022-08-26 02:42:41 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:42:41 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:42:47 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:42:47 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:43:03 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:43:03 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:43:04 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:43:04 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:46:29 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:46:29 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:46:31 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:46:31 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:46:33 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:46:33 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:46:45 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:46:45 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:47:01 --> Table 'ci4_setup.settings' doesn't exist
+CRITICAL - 2022-08-26 02:47:01 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:47:03 --> Table 'ci4_setup.settings' doesn't exist
+CRITICAL - 2022-08-26 02:47:03 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:47:12 --> Table 'ci4_setup.settings' doesn't exist
+CRITICAL - 2022-08-26 02:47:12 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:50:45 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:50:45 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:53:30 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:53:30 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:53:33 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:53:33 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:53:34 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:53:34 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:53:57 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:53:57 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:56:04 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:56:04 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 02:56:56 --> Table 'dev_minia.settings' doesn't exist
+CRITICAL - 2022-08-26 02:56:56 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 182.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH\Libraries\System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH\Controllers\BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(861): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 03:00:34 --> Table 'ci4_setup.logs' doesn't exist
+ERROR - 2022-08-26 03:00:36 --> Table 'ci4_setup.logs' doesn't exist
+ERROR - 2022-08-26 03:00:42 --> Table 'ci4_setup.logs' doesn't exist
+ERROR - 2022-08-26 03:02:01 --> Table 'ci4_setup.logs' doesn't exist
+ERROR - 2022-08-26 03:05:49 --> Table 'dev_minia.logs' doesn't exist
+ERROR - 2022-08-26 03:05:51 --> Table 'dev_minia.logs' doesn't exist
+CRITICAL - 2022-08-26 09:02:30 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH/CodeIgniter.php on line 193.
+ 1 FCPATH/index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-08-26 09:02:35 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH/CodeIgniter.php on line 193.
+ 1 FCPATH/index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-08-26 09:14:08 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH/CodeIgniter.php on line 193.
+ 1 FCPATH/index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-08-26 09:30:30 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH/CodeIgniter.php on line 193.
+ 1 FCPATH/index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-08-26 09:30:46 --> Call to undefined function CodeIgniter\locale_set_default()
+in SYSTEMPATH/CodeIgniter.php on line 193.
+ 1 FCPATH/index.php(43): CodeIgniter\CodeIgniter->initialize()

@@ -1,0 +1,715 @@
+ERROR - 2022-08-30 04:07:15 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:07:15 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:07:15 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:07:15 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:07:16 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:07:16 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:07:16 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:07:16 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:08:20 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:08:20 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:08:20 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:08:20 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:08:21 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:08:21 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:08:21 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:08:21 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:08:32 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:08:32 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:12:42 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 04:12:42 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`
+WHERE `settings`.`id` = :settings.id:', [...], false)
+ 3 SYSTEMPATH/Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 5 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 6 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:13:33 --> Table 'catalog-request.settings' doesn't exist
+CRITICAL - 2022-08-30 04:13:33 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 182.
+ 1 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:13:34 --> Table 'catalog-request.settings' doesn't exist
+CRITICAL - 2022-08-30 04:13:34 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 182.
+ 1 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:13:34 --> Table 'catalog-request.settings' doesn't exist
+CRITICAL - 2022-08-30 04:13:34 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 182.
+ 1 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 04:13:34 --> Table 'catalog-request.settings' doesn't exist
+CRITICAL - 2022-08-30 04:13:34 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 182.
+ 1 SYSTEMPATH/BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+ 2 APPPATH/Libraries/System.php(12): CodeIgniter\BaseModel->find(1)
+ 3 APPPATH/Controllers/BaseController.php(51): App\Libraries\System->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(864): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:16:10 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:17:48 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:17:48 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:17:49 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:32:12 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:32:35 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:32:35 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:32:36 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:33:59 --> Call to undefined function CodeIgniter\Session\dot_array_search()
+in SYSTEMPATH/Session/Session.php on line 472.
+ 1 APPPATH/Filters/Auth.php(13): CodeIgniter\Session\Session->get('loggedIn')
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH/CodeIgniter.php(445): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:34:18 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:50:19 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:50:50 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:50:50 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:50:50 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:50:50 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:00 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:00 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:01 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:33 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:33 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:33 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:34 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:53:37 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:54:32 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:54:33 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:54:33 --> Call to undefined function CodeIgniter\current_url()
+in SYSTEMPATH/CodeIgniter.php on line 505.
+ 1 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 2 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 05:03:30 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:08:03 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:08:05 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:08:31 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:33:33 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:33:36 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:33:45 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:33:50 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 05:40:01 --> Table 'catalog-request.logs' doesn't exist
+ERROR - 2022-08-30 08:41:31 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 08:41:31 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logs` (`message`, `type`, `ip`) VALUES (:message:, :type:, :ip:)', [...], false)
+ 3 SYSTEMPATH/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Helpers/comman_helper.php(84): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/admin/Login.php(66): activity_logs('admin has logout to the system.', 'Logout', '127.0.0.1')
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\admin\Login->logout()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Login))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 08:41:38 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 08:41:38 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logs` (`message`, `type`, `ip`) VALUES (:message:, :type:, :ip:)', [...], false)
+ 3 SYSTEMPATH/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Helpers/comman_helper.php(84): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/admin/Login.php(66): activity_logs('admin has logout to the system.', 'Logout', '127.0.0.1')
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\admin\Login->logout()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Login))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 08:41:48 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 08:41:48 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `logs` (`message`, `type`, `ip`) VALUES (:message:, :type:, :ip:)', [...], false)
+ 3 SYSTEMPATH/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH/Helpers/comman_helper.php(84): CodeIgniter\Model->insert([...])
+ 7 APPPATH/Controllers/admin/Login.php(66): activity_logs('admin has logout to the system.', 'Logout', '127.0.0.1')
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\admin\Login->logout()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Login))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 08:59:39 --> Call to undefined function App\Controllers\api\prinr_r()
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:01:32 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:01:32 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:02:51 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:02:51 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:03:08 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:03:08 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:07:54 --> Call to undefined method App\Models\admin\GeneratetokenModel::getResult
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:07:56 --> Call to undefined method App\Models\admin\GeneratetokenModel::getResult
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:08:21 --> Call to undefined method App\Models\admin\GeneratetokenModel::getResult
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/api/ConstantSubcribe.php(28): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:09:53 --> Call to undefined method App\Models\admin\GeneratetokenModel::getResultArray
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:11:28 --> Call to a member function query() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:11:57 --> Call to a member function query() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:12:08 --> Call to a member function query() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:14:00 --> Call to a member function query() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:14:10 --> Call to a member function query() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:14:11 --> Call to a member function query() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:15:13 --> Call to a member function query() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:17:19 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:17:19 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:17:33 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:17:33 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:18:37 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:18:37 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:18:57 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:18:57 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:19:11 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:19:11 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:19:23 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:19:23 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:20:31 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:20:31 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:23:15 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:23:15 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:23:33 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:23:33 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:23:55 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:24:05 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:26:25 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:29:31 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:30:08 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:30:29 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:32:32 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:32:51 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:33:19 --> Call to a member function table() on null
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:34:05 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+CRITICAL - 2022-08-30 09:34:05 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No address associated with hostname
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:34:44 --> Error connecting to the database: Unknown database 'dev_minia'
+CRITICAL - 2022-08-30 09:34:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dev_minia'
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `constantcontact_token`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/api/ConstantSubcribe.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:38:00 --> Invalid argument supplied for foreach()
+in APPPATH/Controllers/api/ConstantSubcribe.php on line 50.
+ 1 APPPATH/Controllers/api/ConstantSubcribe.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Controllers/api/ConstantSubcribe.php', 50, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\api\ConstantSubcribe->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\api\ConstantSubcribe))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
